@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/node': ^17.0.31
   '@vitejs/plugin-vue': ^2.0.0
   eslint: ^8.15.0
   eslint-config-prettier: ^8.3.0
@@ -21,6 +22,7 @@ dependencies:
   vue-router: 4.0.15_vue@3.2.33
 
 devDependencies:
+  '@types/node': 17.0.31
   '@vitejs/plugin-vue': 2.3.2_vite@2.9.8+vue@3.2.33
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0_eslint@8.15.0
@@ -94,6 +96,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@types/node/17.0.31:
+    resolution: {integrity: sha512-AR0x5HbXGqkEx9CadRH3EBYx/VkiUgZIhP4wvPn/+5KIsgpNoyFaRlVe0Zlx9gRtg8fA06a9tskE2MSN7TcG4Q==}
     dev: true
 
   /@vitejs/plugin-vue/2.3.2_vite@2.9.8+vue@3.2.33:

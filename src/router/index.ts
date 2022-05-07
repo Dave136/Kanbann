@@ -5,12 +5,12 @@ const routes = [
   {
     path: AppRoutes.root,
     name: RouteNames.home,
-    component: () => import('../views/Home.vue'),
+    component: () => import('@/views/Home.vue'),
   },
   {
     path: AppRoutes.about,
     name: RouteNames.about,
-    component: () => import('../views/About.vue'),
+    component: () => import('@/views/About.vue'),
   },
 ];
 
