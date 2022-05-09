@@ -9,8 +9,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue';
-
 type Props = {
   id: number;
   name: string;
