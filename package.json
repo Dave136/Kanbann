@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:fix": "eslint --ext .ts,vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "pinia": "^2.0.0-rc.10",
