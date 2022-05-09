@@ -12,6 +12,12 @@ const routes = [
     name: RouteNames.about,
     component: () => import('@/views/About.vue'),
   },
+  {
+    path: AppRoutes.board,
+    name: RouteNames.board,
+    component: () => import('@/views/Board.vue'),
+    props: true,
+  },
 ];
 
 const router = createRouter({
